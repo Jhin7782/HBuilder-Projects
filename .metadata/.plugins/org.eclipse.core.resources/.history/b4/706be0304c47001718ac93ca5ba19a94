@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function factorial (num) {
+				if (num >= 10) {
+					return Math.random();
+				} else {
+					return factorial(num + 1);
+				}
+			}
+			
+			factorial(1);
+		</script>
+	</body>
+</html>

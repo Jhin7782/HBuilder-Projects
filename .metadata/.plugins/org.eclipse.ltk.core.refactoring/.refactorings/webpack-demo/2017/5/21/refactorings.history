@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“webpack-demo/src/script_es6/new_file.js”重命名为“index.js”" description="重命名资源“new_file.js”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/script_es6/new_file.js" name="index.js" stamp="1495672906707" updateReferences="true"/>
+</session>

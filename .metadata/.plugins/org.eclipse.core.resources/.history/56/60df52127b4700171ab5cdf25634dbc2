@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<ul class="menu-list">
+			<li class="menu-item">1</li>
+			<li class="menu-item">2</li>
+			<li class="menu-item">3</li>
+		</ul>
+	</body>
+</html>

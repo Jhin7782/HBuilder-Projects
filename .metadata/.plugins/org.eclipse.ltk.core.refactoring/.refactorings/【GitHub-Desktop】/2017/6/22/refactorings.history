@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将 1 个资源移至“css”" description="将 1 个资源移至“css”" destination="GitHub-Desktop-sample/css" element1="GitHub-Desktop-sample/main.css" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1496354513624" updateReferences="true"/>
+</session>

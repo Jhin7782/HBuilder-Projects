@@ -1,0 +1,46 @@
+'use strict';
+
+/**
+ * ES5只有全局作用域和函数作用域，没有块级作用域。
+ * 而let则实际上为JavaScript新增了块级作用域。
+ * 用它所声明的变量，只在let命令所在的代码块内有效。
+ * */
+var name = 'zach';
+while (true) {
+	var name = 'obama';
+	console.log(name); //obama
+	break;
+}
+console.log(name); //obama
+
+var name2 = 'zach';
+while (true) {
+	var _name = 'obama';
+	console.log(_name); //obama
+	break;
+}
+console.log(name2); //zach
+
+/**
+ * 另外一个var带来的不合理场景就是用来计数的循环变量泄露为全局变量
+ * */
+var a = [];
+for (var i = 0; i < 10; i++) {
+	a[i] = function () {
+		console.log(i);
+	};
+}
+a[6](); // 10
+
+var a2 = [];
+
+var _loop = function _loop(_i) {
+	a2[_i] = function () {
+		console.log(_i);
+	};
+};
+
+for (var _i = 0; _i < 10; _i++) {
+	_loop(_i);
+}
+a2[6](); // 6

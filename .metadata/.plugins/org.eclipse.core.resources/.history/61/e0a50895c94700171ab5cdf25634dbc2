@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var arr = [10];
+			for (var i = 0; i < arr.length; i++) {
+				var ranNum = Math.random();
+				arr.push(ranNum);
+			}
+			console.log(arr);
+		</script>
+	</body>
+</html>

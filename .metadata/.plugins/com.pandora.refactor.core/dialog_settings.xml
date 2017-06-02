@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.pandora.refactor.ui.wizards.RenameResourceInputPage">
+		<item value="true" key="ALL_PROJECTS"/>
+		<item value="true" key="UPDATE_BUNDLE"/>
+	</section>
+</section>

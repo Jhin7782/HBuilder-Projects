@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			function factorial(num) {
+				if(num <= 1) {
+					return 1;
+				} else {
+					console.log(num * factorial(num - 1));
+				}
+			}
+			var a = factorial(10);
+			console.log(a);
+		</script>
+	</body>
+
+</html>

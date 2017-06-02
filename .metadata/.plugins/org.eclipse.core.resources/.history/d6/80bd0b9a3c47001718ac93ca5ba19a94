@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			//var propName;
+			if(window != null || window != undefined) {
+				for(var propName in window) {
+					document.writeln(propName);
+				}
+			}
+			
+			var obj = {
+				name: "whatever",
+				age: 24
+			}
+			for (var attr in obj) {
+				console.log(obj.attr.toString());
+			}
+		</script>
+	</body>
+
+</html>

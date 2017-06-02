@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
+		<item value="0" key="sort"/>
+		<item value="false" key="allPersp"/>
+		<list key="bounds">
+			<item value="661"/>
+			<item value="119"/>
+			<item value="878"/>
+			<item value="606"/>
+		</list>
+		<list key="columns">
+			<item value="278"/>
+			<item value="558"/>
+		</list>
+	</section>
+	<section name="com.pandora.ui.QuickAccess">
+		<item value="71" key="com.pandora.quicksearch.ui.QuickSearchDialogDIALOG_HEIGHT"/>
+		<item value="458" key="com.pandora.quicksearch.ui.QuickSearchDialogDIALOG_WIDTH"/>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="269" key="DIALOG_Y_ORIGIN"/>
+		<item value="245" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="ImportExportAction">
+		<item value="com.aptana.projects.internal.wizards.PromoteToProjectWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+</section>
