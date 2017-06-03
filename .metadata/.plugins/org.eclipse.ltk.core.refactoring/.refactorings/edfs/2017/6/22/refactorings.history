@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“edfs/live”重命名为“_live”" description="重命名资源“live”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="live" name="_live" stamp="1496445438350" updateReferences="true"/>
+</session>
