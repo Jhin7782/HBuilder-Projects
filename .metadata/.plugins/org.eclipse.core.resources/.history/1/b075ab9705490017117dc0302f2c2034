@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="/_lib/utils/eventUtil.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="dropTarget">
+			
+		</div>
+		<input type="button" id="dropEle" value="来拖我" />
+	</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<button id="btn">onclick</button>
+		
+		<script type="text/javascript">
+			var btn = document.getElementById("btn");
+			
+			btn["class"] = "addByJS"
+		</script>
+	</body>
+</html>

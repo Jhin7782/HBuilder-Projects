@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench version="2.0">
 <workbenchAdvisor/>
-<window height="1056" maximized="true" width="1936" x="-8" y="-8">
+<window height="1047" width="1630" x="297" y="0">
 <fastViewData/>
 <perspectiveBar/>
 <coolbarLayout>
@@ -19,18 +19,34 @@
 <coolItem id="com.aptana.editor.json" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.css" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.less" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.js" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.html" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
 <page focus="true" label="工作空间 － 边改边看模式">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html" path="C:/Users/zzk/AppData/Roaming/HBuilder/userprofiles/1773116605@qq.com/【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/index.html" title="index.html" tooltip="【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="319" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.js" name="eventUtil.js" partName="eventUtil.js" path="C:/Users/zzk/AppData/Roaming/HBuilder/userprofiles/1773116605@qq.com/_lib/utils/eventUtil.js" title="eventUtil.js" tooltip="_lib/utils/eventUtil.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/_lib/utils/eventUtil.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.html" name="事件阻止.html" partName="事件阻止.html" path="C:/Users/zzk/AppData/Roaming/HBuilder/userprofiles/1773116605@qq.com/_lib/frame/冒泡与捕获/事件阻止.html" title="事件阻止.html" tooltip="_lib/frame/冒泡与捕获/事件阻止.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/_lib/frame/冒泡与捕获/事件阻止.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="34" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="项目管理器">
@@ -49,7 +65,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.aptana.ui.RealTimePerspective">
+<perspectives activePart="com.aptana.editor.html" activePerspective="com.aptana.ui.RealTimePerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="开发视图"/>
 <alwaysOnActionSet id="com.aptana.editor.html.actionSet3"/>
@@ -94,30 +110,46 @@
 <new_wizard_action id="com.aptana.ui.wizards.new.file"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
-<fastViewBars>&#x0A;<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@198168a" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29904306"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@198168a" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29904306"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="项目管理器"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="项目管理器"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1278" ratioRight="426" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1278" ratioRight="426" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2625523" ratioLeft="251" ratioRight="705" relationship="2" relative="left"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@198168a" ratio="0.74971557" ratioLeft="659" ratioRight="220" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@198168a" ratio="0.74971557" ratioLeft="659" ratioRight="220" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.7998534" ratioLeft="1091" ratioRight="273" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<info folder="true" part="right" ratio="0.7998534" ratioLeft="1091" ratioRight="273" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="com.pandora.ui.views.Bindings" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@17dbe42" ratio="0.5" ratioLeft="437" ratioRight="437" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@17dbe42" ratio="0.5" ratioLeft="437" ratioRight="437" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
@@ -192,7 +224,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.15557884" ratioLeft="297" ratioRight="1612" relationship="2" relative="left"/>
-<info folder="true" part="right" ratio="0.6309421" ratioLeft="730" ratioRight="427" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="right" ratio="0.653" ratioLeft="653" ratioRight="347" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="com.pandora.view.browser.view.WebBrowserView" appearance="2" expanded="2">
 <page content="com.pandora.view.browser.view.WebBrowserView" label="Web浏览器"/>
 <page content="com.pandora.ui.views.Bindings" label="快捷键列表"/>
@@ -222,7 +254,172 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/_lib/frame/冒泡与捕获/eventCapture.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/_lib/frame/冒泡与捕获/DOM事件流2.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/_lib/frame/冒泡与捕获/DOM事件流3.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/_lib/frame/冒泡与捕获/eventBubble.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/_lib/frame/移动端适配/fontSize.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/_lib/utils/eventUtil.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/_lib/frame/事件绑定的几种方法/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/_lib/frame/冒泡与捕获/DOM事件流.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/_lib/frame/冒泡与捕获/事件阻止.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/_lib/frame/冒泡与捕获/DOM事件流1.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/_lib/frame/冒泡与捕获/事件阻止-sample.html"/>
+</editors>
+<item historyLabel="eventCapture.html" index="0">
+<position info="not_deleted" x="627" y="0"/>
+</item>
+<item historyLabel="DOM事件流3.html" index="2">
+<position/>
+</item>
+<item historyLabel="eventCapture.html" index="0">
+<position info="not_deleted" x="627" y="0"/>
+</item>
+<item historyLabel="eventBubble.html" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="eventCapture.html" index="0">
+<position info="not_deleted" x="627" y="0"/>
+</item>
+<item historyLabel="DOM事件流3.html" index="2">
+<position/>
+</item>
+<item historyLabel="eventCapture.html" index="0">
+<position info="not_deleted" x="627" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="fontSize.html" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="eventUtil.js" index="6">
+<position info="not_deleted" x="1586" y="0"/>
+</item>
+<item historyLabel="fontSize.html" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="eventUtil.js" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="eventUtil.js" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="287" y="0"/>
+</item>
+<item historyLabel="index.html | 事件绑定的几种方法" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="287" y="0"/>
+</item>
+<item historyLabel="eventUtil.js" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="DOM事件流3.html" index="2">
+<position/>
+</item>
+<item historyLabel="DOM事件流2.html" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DOM事件流.html" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DOM事件流3.html" index="2">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="eventUtil.js" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="事件阻止.html" index="9">
+<position/>
+</item>
+<item historyLabel="DOM事件流.html" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DOM事件流1.html" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DOM事件流3.html" index="2">
+<position info="not_deleted" x="0" y="1186"/>
+</item>
+<item historyLabel="事件阻止.html" index="9">
+<position info="not_deleted" x="1189" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="eventUtil.js" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="事件阻止.html" index="9">
+<position info="not_deleted" x="1119" y="0"/>
+</item>
+<item historyLabel="eventUtil.js" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="事件阻止.html" index="9">
+<position info="not_deleted" x="1119" y="0"/>
+</item>
+<item historyLabel="事件阻止.html" index="9">
+<position info="not_deleted" x="1082" y="0"/>
+</item>
+<item historyLabel="事件阻止.html" index="9">
+<position info="not_deleted" x="1085" y="0"/>
+</item>
+<item historyLabel="事件阻止-sample.html" index="11">
+<position/>
+</item>
+<item historyLabel="事件阻止.html" index="9">
+<position info="not_deleted" x="1054" y="31"/>
+</item>
+<item historyLabel="事件阻止-sample.html" index="11">
+<position/>
+</item>
+<item historyLabel="事件阻止.html" index="9">
+<position info="not_deleted" x="1054" y="31"/>
+</item>
+<item historyLabel="事件阻止-sample.html" index="11">
+<position/>
+</item>
+<item historyLabel="事件阻止.html" index="9">
+<position info="not_deleted" x="1054" y="31"/>
+</item>
+<item historyLabel="事件阻止-sample.html" index="11">
+<position info="not_deleted" x="144" y="0"/>
+</item>
+<item active="true" historyLabel="事件阻止.html" index="9">
+<position info="not_deleted" x="1054" y="31"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -232,6 +429,7 @@
 <trimItem IMemento.internal.id="left"/>
 </trimArea>
 <trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 <trimItem IMemento.internal.id="right"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
@@ -245,51 +443,49 @@
 <trimItem IMemento.internal.id="com.pandora.ui.openWith"/>
 <trimItem IMemento.internal.id="com.appcelerator.ui.trim"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@80eb8"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@198168a"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="【GitHub-Desktop】/GitHub-Desktop-sample/index.html">
-<persistable path="/【GitHub-Desktop】/GitHub-Desktop-sample/index.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="事件阻止-sample.html" tooltip="_lib/frame/冒泡与捕获/事件阻止-sample.html">
+<persistable path="/_lib/frame/冒泡与捕获/事件阻止-sample.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="3.数组排序3.html" tooltip="_lib/frame/数组排序/3.数组排序3.html">
-<persistable path="/_lib/frame/数组排序/3.数组排序3.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="DOM事件流3.html" tooltip="_lib/frame/冒泡与捕获/DOM事件流3.html">
+<persistable path="/_lib/frame/冒泡与捕获/DOM事件流3.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="1.冒泡排序.html" tooltip="_lib/frame/排序算法/1.冒泡排序.html">
-<persistable path="/_lib/frame/排序算法/1.冒泡排序.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="DOM事件流.html" tooltip="_lib/frame/冒泡与捕获/DOM事件流.html">
+<persistable path="/_lib/frame/冒泡与捕获/DOM事件流.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="uniqueArr.html" tooltip="_lib/frame/数组去重/uniqueArr.html">
-<persistable path="/_lib/frame/数组去重/uniqueArr.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="事件阻止.html" tooltip="_lib/frame/冒泡与捕获/事件阻止.html">
+<persistable path="/_lib/frame/冒泡与捕获/事件阻止.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="3.数组排序1.html" tooltip="_lib/frame/随机数生成/3.数组排序1.html">
-<persistable path="/_lib/frame/随机数生成/3.数组排序1.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="DOM事件流2.html" tooltip="_lib/frame/冒泡与捕获/DOM事件流2.html">
+<persistable path="/_lib/frame/冒泡与捕获/DOM事件流2.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="3.数组排序2.html" tooltip="_lib/frame/随机数生成/3.数组排序2.html">
-<persistable path="/_lib/frame/随机数生成/3.数组排序2.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="_lib/frame/事件绑定的几种方法/index.html">
+<persistable path="/_lib/frame/事件绑定的几种方法/index.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="3.数组排序3.html" tooltip="_lib/frame/随机数生成/3.数组排序3.html">
-<persistable path="/_lib/frame/随机数生成/3.数组排序3.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="eventUtil.js" tooltip="_lib/utils/eventUtil.js">
+<persistable path="/_lib/utils/eventUtil.js"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="3.数组排序.html" tooltip="_lib/frame/随机数生成/3.数组排序.html">
-<persistable path="/_lib/frame/随机数生成/3.数组排序.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="fontSize.html" tooltip="_lib/frame/移动端适配/fontSize.html">
+<persistable path="/_lib/frame/移动端适配/fontSize.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="1.将数据保存到数组1.html" tooltip="_lib/frame/随机数生成/1.将数据保存到数组1.html">
-<persistable path="/_lib/frame/随机数生成/1.将数据保存到数组1.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/index.html">
+<persistable path="/【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/index.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="1.将数据保存到数组2.html" tooltip="_lib/frame/随机数生成/1.将数据保存到数组2.html">
-<persistable path="/_lib/frame/随机数生成/1.将数据保存到数组2.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="eventCapture.html" tooltip="_lib/frame/冒泡与捕获/eventCapture.html">
+<persistable path="/_lib/frame/冒泡与捕获/eventCapture.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="0.注意事项：数组长度1.html" tooltip="_lib/frame/随机数生成/0.注意事项：数组长度1.html">
-<persistable path="/_lib/frame/随机数生成/0.注意事项：数组长度1.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="eventBubble.html" tooltip="_lib/frame/冒泡与捕获/eventBubble.html">
+<persistable path="/_lib/frame/冒泡与捕获/eventBubble.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="正确示范3.html" tooltip="_lib/frame/事件循环绑定/正确示范3.html">
-<persistable path="/_lib/frame/事件循环绑定/正确示范3.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="【HTML5】/index.html">
+<persistable path="/【HTML5】/index.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="正确示范2.html" tooltip="_lib/frame/事件循环绑定/正确示范2.html">
-<persistable path="/_lib/frame/事件循环绑定/正确示范2.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="正确示范1.html" tooltip="_lib/frame/事件循环绑定/正确示范1.html">
-<persistable path="/_lib/frame/事件循环绑定/正确示范1.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="@JC/index.html">
+<persistable path="/@JC/index.html"/>
 </file>
 </mruList>
 </workbench>

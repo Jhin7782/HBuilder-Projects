@@ -19,10 +19,12 @@
 	var html = document.documentElement,
 		a = function() {
 			var width = html.getBoundingClientRect().width;
-			//任意浏览器的默认字体高都是16px。所有未经调整的浏览器都符合: 1em=16px  1px=0.0625em
+			//任意浏览器的默认字体高都是16px。所有未经调整的浏览器都符合: 16px=1rem  1px=0.0625rem
 			//1. em的值并不是固定的；
 			//2. em会继承父级元素的字体大小。
 			//如果文档宽度大于640px，就设字体大小为40px，否则设为width*0.0625 px
+			//1rem = html的fontSize = 屏宽width * 0.0625 px
+			//16rem = 1 width px
 			html.style.fontSize = 0.0625 * (width >= 640 ? 640 : width) + "px"
 		},
 		c = null;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench version="2.0">
 <workbenchAdvisor/>
-<window height="1047" maximized="true" minimized="true" width="1282" x="-7" y="0">
+<window height="1047" minimized="true" width="1838" x="89" y="0">
 <fastViewData/>
 <perspectiveBar/>
 <coolbarLayout>
@@ -20,28 +20,17 @@
 <coolItem id="com.aptana.editor.css" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.less" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.js" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typePlaceholder" x="-1" y="-1"/>
 </coolbarLayout>
 <page focus="true" label="工作空间 － 边改边看模式">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.html" name="index.html" partName="index.html" path="C:/Users/zzk/AppData/Roaming/HBuilder/userprofiles/1773116605@qq.com/edfs/fullPage/index.html" title="index.html" tooltip="edfs/fullPage/index.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/edfs/fullPage/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7129" selectionTopPixel="3040"/>
-</editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.html" name="indexold.html" partName="indexold.html" path="C:/Users/zzk/AppData/Roaming/HBuilder/userprofiles/1773116605@qq.com/edfs/animation3/indexold.html" title="indexold.html" tooltip="edfs/animation3/indexold.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/edfs/animation3/indexold.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="项目管理器">
@@ -179,10 +168,10 @@
 <new_wizard_action id="com.aptana.ui.wizards.new.file"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="com.pandora.view.browser.view.WebBrowserView"/>
 <view id="com.pandora.ui.views.Bindings"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -203,7 +192,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.15557884" ratioLeft="297" ratioRight="1612" relationship="2" relative="left"/>
-<info folder="true" part="right" ratio="0.5358139" ratioLeft="576" ratioRight="499" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="right" ratio="0.5387567" ratioLeft="702" ratioRight="601" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="com.pandora.view.browser.view.WebBrowserView" appearance="2" expanded="2">
 <page content="com.pandora.view.browser.view.WebBrowserView" label="Web浏览器"/>
 <page content="com.pandora.ui.views.Bindings" label="快捷键列表"/>
@@ -233,102 +222,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/【ES6】/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/edfs/fullPage/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/edfs/swimming/bgScroll8_ver3_beta1.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/edfs/animation1/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/edfs/animation2-转盘/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/edfs/animation3/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/edfs/locationQQ/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/edfs/swimming/bgScroll8_ver3_beta1.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/edfs/animation1/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/edfs/fullPage/fenghuang.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/edfs/fullPage/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/edfs/fullPage/js/js_yy.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/edfs/fullPage/js/js_yy2.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/edfs/animation3/indexold.html"/>
-</editors>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html | fullPage" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="bgScroll8_ver3_beta1.html" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html | fullPage" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html | animation1" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html | animation2-转盘" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html" index="5">
-<position/>
-</item>
-<item historyLabel="index.html" index="6">
-<position info="not_deleted" x="397" y="0"/>
-</item>
-<item historyLabel="bgScroll8_ver3_beta1.html" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html | animation1" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html | animation3" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html | animation1" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="fenghuang.html" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="fenghuang.html" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="js_yy.js" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="js_yy2.js" index="12">
-<position info="not_deleted" x="116" y="11"/>
-</item>
-<item historyLabel="index.html" index="10">
-<position info="not_deleted" x="3885" y="11"/>
-</item>
-<item historyLabel="js_yy2.js" index="12">
-<position info="not_deleted" x="116" y="11"/>
-</item>
-<item historyLabel="index.html" index="10">
-<position info="not_deleted" x="7129" y="0"/>
-</item>
-<item historyLabel="js_yy2.js" index="12">
-<position info="not_deleted" x="58" y="0"/>
-</item>
-<item historyLabel="index.html" index="10">
-<position info="not_deleted" x="7129" y="0"/>
-</item>
-<item historyLabel="js_yy.js" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html" index="10">
-<position info="not_deleted" x="7129" y="0"/>
-</item>
-<item active="true" historyLabel="indexold.html" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -350,42 +244,55 @@
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
 <trimItem IMemento.internal.id="com.pandora.ui.openWith"/>
 <trimItem IMemento.internal.id="com.appcelerator.ui.trim"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@80eb8"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="indexold.html" tooltip="edfs/animation3/indexold.html">
-<persistable path="/edfs/animation3/indexold.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="3.导航菜单.js" tooltip="【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/js/3.导航菜单.js">
+<persistable path="/【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/js/3.导航菜单.js"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="js_yy2.js" tooltip="edfs/fullPage/js/js_yy2.js">
-<persistable path="/edfs/fullPage/js/js_yy2.js"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="3.导航菜单.html" tooltip="【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/3.导航菜单.html">
+<persistable path="/【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/3.导航菜单.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="js_yy.js" tooltip="edfs/fullPage/js/js_yy.js">
-<persistable path="/edfs/fullPage/js/js_yy.js"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="1.拖放测试1.html" tooltip="【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/1.拖放测试1.html">
+<persistable path="/【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/1.拖放测试1.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="edfs/fullPage/index.html">
-<persistable path="/edfs/fullPage/index.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/index.html">
+<persistable path="/【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/index.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="fenghuang.html" tooltip="edfs/fullPage/fenghuang.html">
-<persistable path="/edfs/fullPage/fenghuang.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="【HTML5】/websocket/index.html">
+<persistable path="/【HTML5】/websocket/index.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="edfs/animation3/index.html">
-<persistable path="/edfs/animation3/index.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="_temp/HBuilderProjects/websocket/index.html">
+<persistable path="/_temp/HBuilderProjects/websocket/index.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="edfs/animation1/index.html">
-<persistable path="/edfs/animation1/index.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="_temp/HBuilderProjects/循环绑定/index.html">
+<persistable path="/_temp/HBuilderProjects/循环绑定/index.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="bgScroll8_ver3_beta1.html" tooltip="edfs/swimming/bgScroll8_ver3_beta1.html">
-<persistable path="/edfs/swimming/bgScroll8_ver3_beta1.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="EventUtil.js" tooltip="_lib/utils/EventUtil.js">
+<persistable path="/_lib/utils/EventUtil.js"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="edfs/locationQQ/index.html">
-<persistable path="/edfs/locationQQ/index.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="EventUtil.js" tooltip="_temp/HBuilderProjects/_lib/utils/EventUtil.js">
+<persistable path="/_temp/HBuilderProjects/_lib/utils/EventUtil.js"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="edfs/animation2-转盘/index.html">
-<persistable path="/edfs/animation2-转盘/index.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="EventUtil2.js" tooltip="_lib/utils/EventUtil2.js">
+<persistable path="/_lib/utils/EventUtil2.js"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="【ES6】/index.html">
-<persistable path="/【ES6】/index.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="eventUtil-wt.js" tooltip="_lib/utils/eventUtil-wt.js">
+<persistable path="/_lib/utils/eventUtil-wt.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="EventUtil2.js" tooltip="_temp/HBuilderProjects/_lib/utils/EventUtil2.js">
+<persistable path="/_temp/HBuilderProjects/_lib/utils/EventUtil2.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="sample2.html" tooltip="【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/sample2.html">
+<persistable path="/【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/sample2.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="sample1.html" tooltip="【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/sample1.html">
+<persistable path="/【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/sample1.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="sample.html" tooltip="【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/sample.html">
+<persistable path="/【JS高程3】/16`HTML5脚本编程/16.2 原生拖放/sample.html"/>
 </file>
 </mruList>
 </workbench>

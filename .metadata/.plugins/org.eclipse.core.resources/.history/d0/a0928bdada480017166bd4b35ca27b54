@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#parent {
+				border: 1px solid black;
+			}
+			#son {
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="parent">
+			<input type="button" id="son" value="btn" />
+		</div>
+		
+		<script type="text/javascript">
+			var 
+		</script>
+	</body>
+</html>

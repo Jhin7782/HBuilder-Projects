@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#capture {
+				border: 1px solid balck;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="capture">
+			<input type="button" id="bubble" value="btn" />
+		</div>
+	</body>
+</html>
