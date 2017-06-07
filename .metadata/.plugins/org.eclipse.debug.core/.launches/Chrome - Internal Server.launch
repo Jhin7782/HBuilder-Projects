@@ -2,7 +2,6 @@
 <launchConfiguration type="com.aptana.js.debug.core.webbrowserLaunchConfigurationType">
 <booleanAttribute key="advancedRunEnabled" value="false"/>
 <booleanAttribute key="appendProjectName" value="true"/>
-<stringAttribute key="browserID" value="Chrome360"/>
 <stringAttribute key="browserNature" value="Chrome"/>
 <stringAttribute key="externalBaseUrl" value=""/>
 <stringAttribute key="httpGetData" value=""/>

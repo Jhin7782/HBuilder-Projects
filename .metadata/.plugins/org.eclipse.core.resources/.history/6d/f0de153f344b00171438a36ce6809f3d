@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			p {
+				-webkit-user-select: none;
+			}
+		</style>
+	</head>
+	<body class="no-select">
+		<p>-webkit-user-select...</p>
+	</body>
+</html>

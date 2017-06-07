@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			a {
+				outline: none;
+			}
+			input, textarea {
+				/*PC端*/
+				outline: none;
+				/*移动端*/
+				-webkit-appearance: none;
+				-webkit-tap-highlight-color: none;
+			}
+			
+		</style>
+	</head>
+	<body>
+	</body>
+</html>
