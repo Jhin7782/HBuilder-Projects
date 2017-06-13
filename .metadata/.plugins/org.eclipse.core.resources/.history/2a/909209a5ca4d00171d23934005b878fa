@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--
+			Undefined,
+			Null,
+			Boolean,
+			Number,
+			String,
+			Object
+		-->
+		
+		<script type="text/javascript">
+			var _undefined,
+				//_null,
+				_boolean = true,
+				_number = 0,
+				_string = "",
+				_object = {},
+				_function = function() {
+					console.log("function");
+				};
+			console.log(typeof _undefined);
+			console.log(typeof _null);
+			console.log(typeof _boolean);
+			console.log(typeof _string);
+			console.log(typeof _object);
+			console.log(typeof _function);
+		</script>
+	</body>
+</html>

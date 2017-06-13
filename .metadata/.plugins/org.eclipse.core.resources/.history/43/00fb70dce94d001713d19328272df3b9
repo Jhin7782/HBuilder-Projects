@@ -1,0 +1,39 @@
+var EleUtil = {
+	createEle: function createEle(parentNode_className, ele_name, ele_className, ele_id, textNode, ele_src) {
+		var parentNode_NL = document.getElementsByClassName(parentNode_className);
+		for(var i = 0; i < parentNode_NL.length; i++) {
+			var newEle = document.createElement(ele_name);
+			if(ele_className) { //(undefined || "") == false
+				newEle.className = ele_className;
+			}
+			if(ele_id) {
+				var newEle_NL = document.getElementsByClassName(ele_className);
+				console.log(newEle_NL.length);
+				newEle["id"] = parentNode_className + "_" + ele_className + "_" + ele_name + newEle_NL.length;
+			}
+			if(textNode) {
+				var textNode = document.createTextNode(textNode);
+				newEle.appendChild(textNode);
+			}
+			if(ele_src) {
+				newEle.src = ele_src;
+			}
+			parentNode_NL[i].appendChild(newEle);
+			return newEle;
+		}
+	},
+	createEle_textNode: function createEle(parentNode_id, eleName, eleId, eleSrc) {
+		console.log("onclick");
+		var parentNode = document.getElementById(parentNode_id);
+		var newEle = document.createElement(eleName);
+		if(eleId) {
+			newEle.id = eleId;
+		}
+		if(eleSrc) {
+			newEle.src = eleSrc;
+		}
+		parentNode.appendChild(newEle);
+		return newEle;
+	}
+
+}

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="将资源“_lib/frame/正则表达’”重命名为“正则表达式”" description="重命名资源“正则表达’”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="frame/正则表达’" name="正则表达式" stamp="1496830863462" updateReferences="true"/>
-</session>

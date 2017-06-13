@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<ul id="myList">
+			<li>li 1</li>
+			<li>li 2</li>
+			<li>li 3</li>
+		</ul>
+		
+		<script type="text/javascript">
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<canvas id="drawing" width="200" height="200">A drawing of something.</canvas>
+	</body>
+</html>

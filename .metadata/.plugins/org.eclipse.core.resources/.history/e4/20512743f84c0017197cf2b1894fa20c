@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			canvas {
+				border: 1px solid ;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="drawing" width="400" height="400"></canvas>
+		
+		<script type="text/javascript">
+			var drawing = document.getElementById("drawing");
+			if (drawing.getContext) {
+				var context = drawing.getContext("2d");
+				
+				
+				
+			}
+		</script>
+	</body>
+</html>

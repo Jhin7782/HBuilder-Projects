@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			canvas {
+				border: 1px solid;
+			}
+		</style>
+	</head>
+
+	<body>
+		<img class="grayscale" src="/_lib/img/baby01.png" alt="Description of my picture" />
+		<script type="text/javascript">
+			window.addEventListener("load", removeColors);
+
+			function showColorImg() {
+				this.style.display = "none";
+				this.nextSibling.style.display = "inline";
+			}
+
+			function showGrayImg() {
+				this.previousSibling.style.display = "inline";
+				this.style.display = "none";
+			}
+
+			function removeColors() {
+				var img_NL = document.getElementsByClassName("grayscale");
+				var drawing = document.createElement("canvas"),
+					ctx = drawing.getContext("2d");
+				for(var img_id = 0; img_id < img_NL.length; img_id++) {
+					var img = img_NL[img_id],
+						img_width = img.offsetWidth,
+						img_height = img.offsetHeight;
+					drawing.width = img_width;
+					drawing.height = img_height;
+					document.body.appendChild(drawing);
+					console.log(img + ", " + img_width + ", " + img_height);
+					ctx.drawImage(img, 0, 0);
+					var imgData = ctx.getImageData(0, 0, img_width, img_height),
+						rgba = imgData.data,
+						rgba_length = imgData.data.length;
+					for(nPixel = 0; nPixel < rgba_length; nPixel += 4) {
+						var rgb_avg = (rgba[nPixel] + rgba[nPixel + 1] + rgba[nPixel + 2]) / 3;
+						rgba[nPixel] = rgba[nPixel + 1] = rgba[nPixel + 2] = rgb_avg;
+					}
+					ctx.putImageData(imgData, 0, 0);
+//					oGrayImg = new Image();
+//					oGrayImg.src = oCanvas.toDataURL();
+//					oGrayImg.onmouseover = showColorImg;
+//					oColorImg.onmouseout = showGrayImg;
+//					oCtx.clearRect(0, 0, nWidth, nHeight);
+//					oColorImg.style.display = "none";
+//					oColorImg.parentNode.insertBefore(oGrayImg, oColorImg);
+				}
+			}
+		</script>
+	</body>
+
+</html>

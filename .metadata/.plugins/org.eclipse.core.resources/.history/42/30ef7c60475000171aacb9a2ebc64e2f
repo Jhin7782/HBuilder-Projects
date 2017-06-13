@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<!--
+		https://segmentfault.com/a/1190000004355197?_ea=580742
+	-->
+	<head>
+		<meta charset="UTF-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/input-range.css" />
+		<style>
+			div {
+				margin: 100px;
+				width: 200px;
+				height: 100px;
+				background-color: yellow;
+				/* Rotate div */
+				transform: rotate(9deg);
+				-ms-transform: rotate(9deg);
+				-moz-transform: rotate(9deg);
+				-webkit-transform: rotate(9deg);
+				-o-transform: rotate(9deg);
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div>Hello World</div>
+		<input type="range" id="rotateBox-slider" value="20" min="0" max="100" step="1" />
+
+		<script type="text/javascript">
+			var rotateBoxSlider = document.getElementById("rotateBox-slider");
+			
+			var styleSheets = document.styleSheets;
+			var styleSheet0 = styleSheets[0];
+			var styleSheet1 = styleSheets[1];
+			//var styleSheet0 = document.getElementsByTagName('link')[0].sheet;
+			//var styleSheet1 = document.getElementsByTagName('style')[0].sheet;
+			document.writeln(
+				" <br />styleSheets length:" + styleSheets.length +
+				",<br />styleSheets type:" + styleSheets + 
+				",<br />styleSheet0 type:" + styleSheets[0] + 
+				",<br />styleSheet0 ownerNode:" + styleSheets[0].ownerNode + 
+				",<br />styleSheet1 type:" + styleSheets[1] + 
+				",<br />styleSheet1 ownerNode:" + styleSheets[1].ownerNode 
+			);
+
+			rotateBoxSlider.oninput = function() {
+				console.log(this.value)
+				var cssRule = "input[type=range]::-webkit-slider-runnable-track {background-size: " + this.value + "% 100%;}"
+				styleSheets[1].insertRule(cssRule, 0);
+			}
+		</script>
+	</body>
+
+</html>

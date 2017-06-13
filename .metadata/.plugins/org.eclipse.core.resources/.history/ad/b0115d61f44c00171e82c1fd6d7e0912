@@ -1,0 +1,27 @@
+<!DOCTYPE html>0px
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<canvas id="drawing" width="" height=""></canvas>
+		<script type="text/javascript">
+			var drawing = document.getElementById("drawing");
+			if(drawing.getContext) {
+				var context = drawing.getContext("2d");
+				context.font = "14px Arial";
+				context.textAlign = "start";
+				context.textBaseline = "top";
+				context.fillText("hello fillText();", 10, 10);
+				context.font = "30px";
+				context.strokeText("hello fillText();", 10, 50);
+				var TextMetrics = context.measureText("hello fillText();");
+				console.log(TextMetrics.width);
+			}
+		</script>
+	</body>
+
+</html>

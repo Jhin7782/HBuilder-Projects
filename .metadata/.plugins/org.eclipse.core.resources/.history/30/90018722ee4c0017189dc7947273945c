@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			canvas {
+				border: 1px solid;
+			}
+		</style>
+	</head>
+
+	<body>
+		<canvas id="drawing" width="400" height="400"></canvas>
+		
+		<script type="text/javascript">
+			var drawing = document.getElementById("drawing");
+			if(drawing.getContext) {
+				var context = drawing.getContext("2d");
+				var fontSize = 100;
+				context.font = fontSize + "px Arial";
+				context.textAlign = "start";
+				context.textBaseline = "top";
+				context.fillText("hello fillText();", 10, 10);
+				var TextMetrics = context.measureText("hello fillText();");
+				console.log(TextMetrics);
+				
+			}
+		</script>
+	</body>
+
+</html>

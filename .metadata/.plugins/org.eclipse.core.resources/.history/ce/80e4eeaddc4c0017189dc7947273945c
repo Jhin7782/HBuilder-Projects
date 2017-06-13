@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<canvas id="drawing" width="400" height="400"></canvas>
+		
+		<script type="text/javascript">
+			
+		</script>
+	</body>
+</html>

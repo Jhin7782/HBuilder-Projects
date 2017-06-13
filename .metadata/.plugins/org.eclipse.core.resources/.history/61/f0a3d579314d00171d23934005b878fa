@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			img {
+				border: 10px solid;
+			}
+			
+			canvas {
+				border: 1px solid;
+			}
+		</style>
+	</head>
+
+	<body>
+		<img id="baby" src="/_lib/img/baby01.png" />
+		<canvas id="drawing" width="400" height="400">don't support canvas</canvas>
+
+		<script type="text/javascript">
+			var img1 = document.images[0];
+			var img2 = document.getElementsByTagName("img")[0];
+			var img3 = document.getElementById("baby");
+			console.log(img1 + "," + img2 + "," + img3);
+			alert(img1 + "," + img2 + "," + img3);
+
+			var drawing = document.getElementById("drawing");
+			if(drawing.getContext) {
+				var context = drawing.getContext("2d");
+				window.onload = function() {
+					context.drawImage(img1, 50, 10, 350, 450, 10, 10, 300, 300);
+				}
+			}
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			canvas {
+				border: 1px solid;
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			var canvas = document.createElement("canvas");
+			document.body.appendChild(canvas);
+			
+		</script>
+	</body>
+
+</html>

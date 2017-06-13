@@ -1,0 +1,31 @@
+var EleUtil = {
+	createEle: function createEle(parentNode_className, eleName, eleId, eleSrc) {
+		var parentNode_NL = document.getElementsByClassName(parentNode_className);
+		for (var i = 0; i < parentNode_NL.length; i++) {
+			parentNode_NL[i]
+		var newEle = document.createElement(eleName);
+		if(eleId) {
+			newEle.id = eleId;
+		}
+		if (eleSrc) {
+			newEle.src = eleSrc;
+		}
+		parentNode.appendChild(newEle);
+		return newEle;
+		}
+	},
+	createEle_textNode: function createEle(parentNode_id, eleName, eleId, eleSrc) {
+		console.log("onclick");
+		var parentNode = document.getElementById(parentNode_id);
+		var newEle = document.createElement(eleName);
+		if(eleId) {
+			newEle.id = eleId;
+		}
+		if (eleSrc) {
+			newEle.src = eleSrc;
+		}
+		parentNode.appendChild(newEle);
+		return newEle;
+	}
+	
+}

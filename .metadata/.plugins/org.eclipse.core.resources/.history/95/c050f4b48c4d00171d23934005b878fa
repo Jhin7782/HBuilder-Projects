@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			canvas {
+				border: 1px solid;
+			}
+		</style>
+	</head>
+
+	<body>
+		<img class="grayscale" src="/_lib/img/baby01.png" alt="Description of my picture" />
+		<script type="text/javascript">
+			window.addEventListener("load", removeColors);
+
+					var oCanvas = document.createElement("canvas");
+		</script>
+	</body>
+
+</html>

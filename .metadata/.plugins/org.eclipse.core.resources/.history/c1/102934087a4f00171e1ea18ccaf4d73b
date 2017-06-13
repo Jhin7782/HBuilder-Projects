@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.text-shadow {
+				font-size: 36px;
+				color: transparent;
+				text-shadow: 20px 0 0 red, 0 20px 0 red, -20px 0 0 red;
+			}
+		</style>
+	</head>
+	<body>
+		<p class="text-shadow">text-shadow</p>
+	</body>
+</html>

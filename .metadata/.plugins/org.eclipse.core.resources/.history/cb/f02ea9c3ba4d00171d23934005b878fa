@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var text = "hi, string";
+			document.write(Number(text)+"<br />");
+			document.write(parseInt(text)+"<br />");
+			document.write(text.length+"<br />");
+			
+			var myName = "溹琗瀒瘷穡擌";
+			document.write(myName.length+"<br />");
+			
+		</script>
+	</body>
+</html>

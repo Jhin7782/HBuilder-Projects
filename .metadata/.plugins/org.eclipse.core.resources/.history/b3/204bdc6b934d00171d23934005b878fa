@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			canvas {
+				border: 1px solid;
+			}
+		</style>
+	</head>
+
+	<body>
+		<img class="grayscale" src="/_lib/img/baby01.png" alt="Description of my picture" />
+		<script type="text/javascript">
+			window.addEventListener("load", removeColors);
+
+			function showColorImg() {
+				this.style.display = "none";
+				this.nextSibling.style.display = "inline";
+			}
+
+			function showGrayImg() {
+				this.previousSibling.style.display = "inline";
+				this.style.display = "none";
+			}
+
+			function removeColors() {
+				var img_NL = document.getElementsByClassName("grayscale"),
+					drawing = document.createElement("canvas"),
+					ctx = drawing.getContext("2d");
+				document.body.appendChild(drawing);
+				for(var img_id = 0; img_id < img_NL.length; img_id++) {
+					oColorImg = aImages[nImgId];
+					nWidth = oColorImg.offsetWidth;
+					nHeight = oColorImg.offsetHeight;
+					oCanvas.width = nWidth;
+					oCanvas.height = nHeight;
+					//console.log(oColorImg + ", " + nWidth + ", " + nHeight);
+					oCtx.drawImage(oColorImg, 0, 0);
+					oImgData = oCtx.getImageData(0, 0, nWidth, nHeight);
+					aPix = oImgData.data;
+					nPixLen = aPix.length;
+					console.log(aPix + ", " + nPixLen);
+//					for(nPixel = 0; nPixel < nPixLen; nPixel += 4) {
+//						aPix[nPixel + 2] = aPix[nPixel + 1] = aPix[nPixel] = (aPix[nPixel] + aPix[nPixel + 1] + aPix[nPixel + 2]) / 3;
+//					}
+//					oCtx.putImageData(oImgData, 0, 0);
+//					oGrayImg = new Image();
+//					oGrayImg.src = oCanvas.toDataURL();
+//					oGrayImg.onmouseover = showColorImg;
+//					oColorImg.onmouseout = showGrayImg;
+//					oCtx.clearRect(0, 0, nWidth, nHeight);
+//					oColorImg.style.display = "none";
+//					oColorImg.parentNode.insertBefore(oGrayImg, oColorImg);
+				}
+			}
+		</script>
+	</body>
+
+</html>

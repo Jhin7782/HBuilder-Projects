@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“【ES5】/选择器/s”重命名为“styleSheets”" description="重命名资源“s”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="选择器/s" name="styleSheets" stamp="1497375586755" updateReferences="true"/>
+</session>

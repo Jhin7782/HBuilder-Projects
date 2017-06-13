@@ -1,0 +1,29 @@
+var EleUtil = {
+	createEle: function createEle(parentNodeClassName, eleName, eleId, eleSrc) {
+		console.log("onclick");
+		var parentNode = document.getElementById(parentNode_className);
+		var newEle = document.createElement(eleName);
+		if(eleId) {
+			newEle.id = eleId;
+		}
+		if (eleSrc) {
+			newEle.src = eleSrc;
+		}
+		parentNode.appendChild(newEle);
+		return newEle;
+	},
+	createEle_textNode: function createEle(parentNode_id, eleName, eleId, eleSrc) {
+		console.log("onclick");
+		var parentNode = document.getElementById(parentNode_id);
+		var newEle = document.createElement(eleName);
+		if(eleId) {
+			newEle.id = eleId;
+		}
+		if (eleSrc) {
+			newEle.src = eleSrc;
+		}
+		parentNode.appendChild(newEle);
+		return newEle;
+	}
+	
+}

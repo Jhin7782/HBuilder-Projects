@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="/_lib/utils/EleUtil.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			img {
+				border: 10px solid;
+				/*display: none;*/
+			}
+			
+			canvas {
+				border: 1px solid;
+			}
+		</style>
+	</head>
+
+	<body>
+		<img id="baby" src="/_lib/img/baby01.png" />
+		<canvas id="drawing" width="600" height="600">don't support canvas</canvas>
+
+		<script type="text/javascript">
+			
+			var drawing = document.getElementById("drawing");
+			if(drawing.getContext) {
+				var context = drawing.getContext("2d");
+				window.onload = function() {
+					context.drawImage(img1, 35, 10, 230, 450, 10, 10, 230, 450);
+				}
+			}
+		</script>
+	</body>
+
+</html>

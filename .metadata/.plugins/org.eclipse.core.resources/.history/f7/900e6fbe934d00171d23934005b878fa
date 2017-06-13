@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			canvas {
+				border: 1px solid;
+			}
+		</style>
+	</head>
+
+	<body>
+		<img class="grayscale" src="/_lib/img/baby01.png" alt="Description of my picture" />
+		<script type="text/javascript">
+			window.addEventListener("load", removeColors);
+
+			function showColorImg() {
+				this.style.display = "none";
+				this.nextSibling.style.display = "inline";
+			}
+
+			function showGrayImg() {
+				this.previousSibling.style.display = "inline";
+				this.style.display = "none";
+			}
+
+			function removeColors() {
+				var img_NL = document.getElementsByClassName("grayscale"),
+					drawing = document.createElement("canvas"),
+					ctx = drawing.getContext("2d");
+				document.body.appendChild(drawing);
+				for(var img_id = 0; img_id < img_NL.length; img_id++) {
+					img = img_NL[img_id];
+					img_width = img.offsetWidth;
+					img_height = img.offsetHeight;
+					drawing.width = img_width;
+					drawing.height = img_height;
+					console.log(img + ", " + img_width + ", " + img_height);
+					ctx.drawImage(img, 0, 0);
+					imgData = ctx.getImageData(0, 0, img_width, img_height);
+//					for(nPixel = 0; nPixel < nPixLen; nPixel += 4) {
+//						aPix[nPixel + 2] = aPix[nPixel + 1] = aPix[nPixel] = (aPix[nPixel] + aPix[nPixel + 1] + aPix[nPixel + 2]) / 3;
+//					}
+//					oCtx.putImageData(oImgData, 0, 0);
+//					oGrayImg = new Image();
+//					oGrayImg.src = oCanvas.toDataURL();
+//					oGrayImg.onmouseover = showColorImg;
+//					oColorImg.onmouseout = showGrayImg;
+//					oCtx.clearRect(0, 0, nWidth, nHeight);
+//					oColorImg.style.display = "none";
+//					oColorImg.parentNode.insertBefore(oGrayImg, oColorImg);
+				}
+			}
+		</script>
+	</body>
+
+</html>

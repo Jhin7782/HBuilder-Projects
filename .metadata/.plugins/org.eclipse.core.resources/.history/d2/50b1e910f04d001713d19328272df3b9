@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<ul id="myList">
+			<li>li1</li>
+			<li>li2</li>
+			<li>li3</li>
+		</ul>
+		
+		<script type="text/javascript">
+			var myList = document.getElementById("myList");
+			var CN_len = myList.childNodes.length;
+			console.log(CN_len);
+		</script>
+	</body>
+</html>

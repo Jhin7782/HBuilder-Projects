@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="/_lib/utils/EleUtil.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			img {
+				border: 10px solid;
+				/*display: none;*/
+			}
+			
+			canvas {
+				border: 1px solid;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="img-box">
+			
+		</div>
+		<canvas id="drawing" width="600" height="600">don't support canvas</canvas>
+
+		<script type="text/javascript">
+			EleUtil.createEle("img-box", "img", "babys", "id", "", "/_lib/img/baby01.png");
+			
+		</script>
+	</body>
+
+</html>

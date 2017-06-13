@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			canvas {
+				border: 1px solid;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="drawing" width="400" height="400">A drawing of something.</canvas>
+		
+		<script type="text/javascript">
+			var drawing = document.getElementById("drawing");
+			if (drawing.getContext) {
+				var context = drawing.getContext("2d");
+				context.fillStyle = "rgba(255, 0, 0, 0.5)";
+				context.fillRect(0, 0, 50, 50);
+				context.fillStyle = "rgba(0, 0, 255, 0.5)";
+				context.fillRect(25, 25, 200, 200);
+			}
+		</script>
+	</body>
+</html>

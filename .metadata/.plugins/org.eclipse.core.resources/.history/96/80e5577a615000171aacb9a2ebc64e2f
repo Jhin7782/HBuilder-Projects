@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/input-range.css"/>
+		<style>
+			div {
+				margin: 100px;
+				width: 200px;
+				height: 100px;
+				background-color: yellow;
+				/* Rotate div */
+				-webkit-transform: rotate(9deg);
+				-moz-transform: rotate(9deg);
+				-ms-transform: rotate(9deg);
+				transform: rotate(9deg);
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div>Hello World</div>
+		<input type="range" id="rotateBox" value="20" min="0" max="100" step="1" />
+		
+		<script type="text/javascript">
+			var rotateBox = document.getElementById("rotateBox");
+			var styleTagSlideBar = document.createElement("style");
+			var styleTagRotateBox = document.createElement("style");
+			document.head.appendChild(styleTagSlideBar);
+			document.head.appendChild(styleTagRotateBox);
+			var styleSheetSlideBar = styleTagSlideBar.sheet;
+			var styleSheetRotateBox = styleTagRotateBox.sheet;
+			
+			var cssRule = "input[type=range]::-webkit-slider-runnable-track {background-size: " + this.value + "% 100%;}"
+			styleSheetSlideBar.insertRule(cssRule, 0);
+			rotateBox.oninput = function() {
+				//这种方式的改动不会显示在源代码中
+				styleSheetSlideBar.cssRules[0].style.backgroundSize = this.value + "% 100%";
+				styleSheetRotateBox.cssRules[0]
+			}
+				
+		</script>
+	</body>
+
+</html>
